@@ -1,0 +1,163 @@
+body {
+  font-family: 'Gochi Hand', cursive;
+  text-align: center !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gochi Hand', cursive !important;
+}
+
+p {
+  color: grey;
+  font-family: 'Gochi Hand', cursive !important;
+  font-size: 1.5rem !important;
+}
+
+/* headings */
+.big-heading {
+  font-family: 'Gochi Hand', cursive !important;
+  font-size: 60px !important;
+  line-height: 1.5 !important;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% !important;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 3.5rem !important;
+}
+
+.navbar-brand {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 45%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 4% 10%;
+  color: #fff;
+}
+
+#footer {
+  text-align: center;
+  padding: 4% 8%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center !important;
+  }
+
+  .title-img {
+    position: static !important;
+    transform: rotate(0) !important;
+  }
+}
